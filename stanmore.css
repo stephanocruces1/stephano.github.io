@@ -1,0 +1,180 @@
+﻿* {
+margin: 0em;
+padding: 0em;
+font-size: 100%;
+border-style: none;
+list-style-type: none;
+}
+
+
+body
+{
+    font-family: calibri, arial, sans-serif;
+    background-color: #fff;
+}
+
+p{color: #fff; 
+    padding-bottom: 10px;
+}
+h1{color: #fff;}
+li{color: #fff;}
+h2{color: #fff; padding-bottom: 7px;}
+table td {color: #fff;}
+table th{color: #fff;}
+
+#wrapper
+{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #2a3c4b;
+    
+}
+
+main
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 10px;
+
+}
+
+nav
+{
+    background-color: #33516d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+nav ul li a:hover
+{
+    color: #d3e500;
+}
+
+footer ul
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1
+{
+    color: #d3e500;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+#a
+{
+    padding-bottom: 20px;
+}
+#a li
+{
+    color: #fff;
+}
+
+#a li::before
+{
+    color: #fff;
+    content: "\2022";
+    padding-right: 8px;
+}
+
+#table1 th
+{
+    text-align: left;
+}
+
+#table1 td 
+{
+    padding-left: 50px;
+}
+
+#table1
+{
+    padding-bottom: 15px;
+}
+
+#link1
+{
+    text-decoration: underline;
+    color: #fff;
+}
+
+#link1:hover
+{
+    color: #d3e500;
+    text-decoration: none;
+}
+
+#rentals
+{
+ text-decoration: none;
+ color: #d3e500;   
+}
+
+footer ul li 
+{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+footer ul li a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a:hover
+{
+    text-decoration: underline;
+}
+
+#column2 img
+{
+    padding-top: 5px;
+    padding-bottom: 33px;
+}
+
+#column4
+{
+    padding-top: 10px;
+}
+
+#column3 h1
+{
+    padding-bottom: 5px;
+    font-size: larger;
+}
+
+#column3 h2
+{   
+    padding-bottom: 10px;
+}
+
+#column3 a
+{
+    text-decoration: none;
+    color:#d3e500;
+}
+
+#column3 a:hover
+{
+    text-decoration: underline;
+}
